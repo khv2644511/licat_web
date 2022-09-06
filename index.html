@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>모두의 HTML/CSS</title>
+</head>
+<body>
+    <header>
+        <div class="nav_bar">
+            <h1>
+                <img src="images/CSS.png" alt="모두의 HTML/CSS"> <!--스크린 헤더가 alt를 읽어줌, 로고만 폰트가 다르니까 이미지로 처리-->
+            </h1> <!--class name bem사용?-->
+
+            <nav>
+                <ul>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">HTML</a></li>
+                    <li><a href="">CSS</a></li>
+                    <li><a href="">JavaScript</a></li>
+                </ul>
+            </nav>
+            <article>
+                <h2>사이트내 검색</h2>
+                <form action="">
+                <!-- <input type="search"> 무엇을 입력하는지 알려줘야함 lavel 여기서는 h2가 설명함 -->
+                <button type="submit">검색 실행</button>
+                </form>
+            </article>
+        </div>
+    </header>
+
+            <!-- <ul class="wrap">
+                <li>
+                    <a href="">HOME</a>
+                </li>
+                <li>
+                    <a href="">HTML</a>
+                </li>
+                <li>
+                    <a href="">CSS</a>
+                </li>
+                <li>JavaScript</li>
+            </ul> -->
+            <!-- 돋보기 -->
+        <!--css로 없애기 img alt로 넣으면 삭제해도됨-->
+        <!-- <button>
+            검색 버튼
+            <img src="" alt="">
+        </button> -->
+
+    <main>
+        <div class="bg_color">
+            <section class="banner">
+                    <img class="lion_img" src="/images/사자.png" alt="손흔드는 라이켓">
+
+                    <div class="hello">
+                        <h2>모두의 HTML/CSS</h2>
+                        <strong>
+                            HELLO<br>WORLD! :)
+                        </strong>
+                        <p>
+                            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam aliquam ratione, a eos perspiciatis temporibus
+                        </p>
+                        <div class="login">
+                            <a class="sign up" href="">회원가입</a>
+                            <a class="sign in" href="">BUTTON</a>
+                        </div>
+                    </div>
+                    
+                <aside class="class">
+                    <a href="">
+                        <img src="" alt="M.B.T.I 강의 보러가기">
+                    </a>
+                    <a href="">
+                    <img src="" alt="30분 요약강좌 보러가기">
+                    </a>   
+                    <!-- <figure>
+                        <figcaption>
+                            <a href="">M.B.I.T 강의 보러가기</a>
+                            <a href="">30분 요약강좌 보러가기
+                            </a>
+                        </figcaption>
+                    </figure> -->
+                </aside>
+            </section>
+        </div>
+
+        <section>
+            <h2>웹 언어와 즐거운 회사생활</h2>
+            <dl>
+                <div class="define">
+                    <dt>HTML</dt>
+                    <dd>Hypertext Markup Language 하이퍼텍스트 마크업 언어</dd>
+                    <dd>웹을 이루는 가장 기초적인 구성 요소로, 웹 콘텐츠의 의미와 구조를 정의할 때 사용</dd>
+                </div>
+
+                <div class="define">
+                    <dt>CSS</dt>
+                    <dd>Cascading Style Sheets</dd>
+                    <dd>HTML이나 XML(XML의 방언인 SVG, XHTML 포함)로 작성된 문서의 표시 방법을 기술하기 위한 스타일 시트 언어</dd>
+                </div>
+
+                <div class="define">
+                    <dt>JavaScript</dt>
+                    <dd>일급 함수를 사용하는 가벼운 객체 지향 인터프리터 언어</dd>
+                    <dd>웹페이지의 스크립트 언어로 잘 알려져 있지만, 브라우저가 아닌 환경에서도 많이 사용됨</dd>
+                </div>
+            </dl>
+
+            <figure>
+                <img src="" alt="땀흘리며 운동하는 뮤라">
+                <figcaption>
+                    <time datetime="05:00">오전 5:00</time>
+                    <strong>헛둘셋넷</strong>
+                    <p></p>
+                </figcaption>
+            </figure>
+            <figure>
+                <img src="" alt="출근하다가 지렁이를 바라보는 소울곰">
+                <figcaption>
+                    <time datetime="09:00">오전 9:00</time>
+                    <strong>헛둘셋넷</strong>
+                    <p></p>
+                </figcaption>
+            </figure>
+            <figure>
+                <img src="" alt="치킨을 손에 들고 신나게 퇴근하는 개리">
+                <figcaption>
+                    <time datetime="18:00">오후 6:00</time>
+                    <strong>헛둘셋넷</strong>
+                    <p></p>
+                </figcaption>
+            </figure>
+
+
+            <!-- <h2>프론트엔드 언어</h2>
+            <dl>
+                <dt>HTML
+                    <dd>Hypertext Markup Language 하이퍼텍스트 마크업 언어 
+                    </dd>
+                    <dd>웹을 이루는 가장 기초적인 구성 요소로, 웹 콘텐츠의 의미와 구조를 정의할 때 사용</dd>
+                </dt>
+            </dl>
+
+            <dl>
+                <dd>CSS
+                    <dt>Cascading Style Sheets 
+                    </dt>
+                    <dt>HTML이나 XML(XML의 방언인 SVG, XHTML 포함)로 작성된 문서의 표시 방법을 기술하기 위한 스타일 시트 언어</dt>
+                </dd>
+            </dl>
+
+            <dl>
+                <dd>JavaScript
+                    <dt>일급 함수를 사용하는 가벼운 객체 지향 인터프리터 언어 
+                    </dt>
+                    <dt>웹페이지의 스크립트 언어로 잘 알려져 있지만, 브라우저가 아닌 환경에서도 많이 사용됨</dt>
+                </dd>
+            </dl>
+        </section>
+
+        <section>
+            <h2>to do list</h2>
+            <li>
+                <figure>
+                    <figcaption>
+                        <time>오전 5:00</time>
+                        <h3>헛둘셋넷 열심히 운동하기
+                        </h3>
+                        <p>amet consectetur adipisicing elit.
+                        </p>
+                    </figcaption>
+                </figure>
+                <figure>
+                    <figcaption>
+                        <p>오전 5:00
+                        </p>
+                        <h3>헛둘셋넷 열심히 운동하기
+                        </h3>
+                        <p>amet consectetur adipisicing elit.
+                        </p>
+                    </figcaption>
+                </figure>
+                <figure>
+                    <figcaption>
+                        <p>오전 5:00
+                        </p>
+                        <h3>헛둘셋넷 열심히 운동하기
+                        </h3>
+                        <p>amet consectetur adipisicing elit.
+                        </p>
+                    </figcaption>
+                </figure>
+            </li>
+        </section> -->
+
+
+        <section>
+            <h2>Lorem ipsum dolor sit.
+            </h2>
+            <ol>
+                <li><button type="button">Tab1</button></li>
+                <li><button type="button">Tab2</button></li>
+                <li><button type="button">Tab3</button></li>
+            </ol>
+            
+            <section>
+                <h3>Tab1의 데이터 목록</h3>
+                <ol start="10" reversed>
+                    <li>
+                        <a href="">
+                        <span>10</span>
+                        <p></p>
+                        <time datetime="2022-01-01">2022.01.01</time>
+                    </a>
+                    </li>
+                </ol>
+            </section>
+
+            <a href="">more +</a> <!--more : 스크린 리더가 읽는 순서를 고려해서 마지막에 위치시킴-->
+
+
+            <!-- <ol>
+                <li>Tab1
+                    <ol start="10" reversed>
+                        <li>
+                            <a href="">
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ullam aliquam ratione, a eos perspicia...</p>
+                            <span>N</span>
+                            <time>2022.01.01
+                            </time>
+                            </a>
+                        </li>
+
+                        <li>Ullam aliquam ratione, a eos perspiciatis temporibus
+                            <time>2022.01.01
+                            </time>
+                        </li>
+                        <li>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                            <time>2022.01.01
+                            </time>
+                        </li>
+                        <li>Dolores quia excepturi alias quam quidem, necessitatibus a perferendis eum vitae aliquam volu...
+                            <time>2022.01.01
+                            </time>
+                        </li>
+                        <li>Adipisci provident laborum maxime dolore omnis iure consequuntur?
+                            <time>2022.01.01
+                            </time>
+                        </li>
+                    </ol>
+                </li>
+                    
+                <li>Tab2
+                    <ol>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ol>
+                </li>
+
+                <li>Tab3
+                    <ol>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                        <li></li>
+                    </ol>
+                </li>
+            </ol>
+        </section> -->
+
+
+        <section>
+            <h2>Amet consectetur adipisicing.</h2>
+            <article>
+                <h3>위니비언의 라이프 스타일</h3>
+                <ul>
+                    <li>
+                        <figure>
+                            <img src="" alt="">
+                            <figcaption>
+                                <em>Lorem, ipsum dolor.</em>
+                                Lorem, ipsum.
+                            </figcaption>
+                        </figure>
+                    </li>
+                    <li>
+                        <figure>
+                            <img src="" alt="">
+                            <figcaption>
+                                <em>Lorem, ipsum dolor.</em>
+                                Lorem, ipsum.
+                            </figcaption>
+                        </figure>
+                    </li>
+                    <li>
+                        <figure>
+                            <img src="" alt="">
+                            <figcaption>
+                                <em>Lorem, ipsum dolor.</em>
+                                Lorem, ipsum.
+                            </figcaption>
+                        </figure>
+                    </li>
+                </ul>
+
+                <button type="button">
+                    <img src="" alt="이전 슬라이드 보기">
+                </button>
+                <button type="button">
+                    <img src="" alt="다음 슬라이드 보기">
+                </button>
+
+                <!-- 인디케이터 -->
+                <ol>
+                    <li>
+                        <button type="button">1~3번째 슬라이드</button>
+                    </li>
+                    <li>
+                        <button type="button">4~6번째 슬라이드</button>
+                    </li>
+                    <li>
+                        <button type="button">7~9번째 슬라이드</button>
+                    </li>
+                </ol>
+            </article>
+
+
+        </section>
+
+
+
+        <aside>
+            <h2>Amet consectetur adipisicing.
+            </h2>
+            <button></button>
+            <button></button>
+            <ul>
+                <li>
+                    <figure>
+                        <img src="" alt="">
+                        <figcaption>Ullam aliquam ratione, a eos perspiciatis temporibus ...
+                        </figcaption>
+                    </figure>
+                </li>
+                <li>
+                    <figure>
+                        <img src="" alt="">
+                        <figcaption>Ullam aliquam ratione, a eos perspiciatis temporibus ...
+                        </figcaption>
+                    </figure>
+                </li>
+                <li>
+                    <figure>
+                        <img src="" alt="">
+                        <figcaption>Ullam aliquam ratione, a eos perspiciatis temporibus ...
+                        </figcaption>
+                    </figure>
+                </li>
+            </ul>
+
+            <a href="">more</a>
+        </aside>            
+    </main>
+
+    <footer>
+        <section>
+            <h2>사이트 및 회사소개</h2>
+            <p>모두의 HTML/CSS
+            </p>
+            <address>
+                <dt>주소</dt>
+                <dd>
+                서울특별시 사랑시 고백구 행복동 123-45 1층 
+                </dd>
+                <dt>전화번호</dt>
+                <dd>
+                <a href="" tell="02-987-6543"></a>
+                </dd> / 
+                
+                
+                <a href="" email="abc@gmail.com"></a>
+
+            </address>
+            <small>©Weniv all rights reserved
+            </small>
+        </footer>
+    </section>
+
+    
+</body>
+</html>

@@ -1,0 +1,169 @@
+a:-webkit-any-link {
+    color: initial;
+    /* cursor: pointer; */
+    text-decoration: none;
+}
+
+.login h2 {
+    font-weight: normal;
+}
+
+ul {
+    display: inline-block;
+    list-style-type: none;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+    padding-inline-start: 0;
+    width: 300px;
+}
+
+header {
+    /* text-align: center; */
+    padding: 80px 60px 60px 400px;
+    /* background-color: aqua; */
+    margin: 0 auto;
+    /* background-size: 100%; */
+
+}
+
+form {
+    display: inherit;   
+}
+
+article {
+    display: inline-block;
+}
+
+
+
+
+h1 {
+    display: inline-block;
+    margin: auto;    
+}
+
+nav  {
+    display: inline-block;
+    list-style-type: none;
+    /* text-align: center; */
+    vertical-align:text-top;
+    /* background-color: yellow; */
+    /* margin: auto;   */
+    font-size: 25px;
+}
+
+ul {
+    width: 1000px;  
+    display: inline-block;
+    text-align: center;
+
+
+
+}
+
+nav > ul > li {
+    display: inline-block;
+    margin: auto;
+    padding-left: 80px; 
+    /* background-color: aliceblue; */
+
+}
+
+
+main > section > img {
+    width: 711px;
+    height: 717px;
+    left: 261px;
+    top: 119px;
+    text-align: left;
+}
+
+article {
+    display: inline-block;
+    padding-left: 80px;
+}
+
+article > h2 {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    clip-path: polygon(0 0, 0 0, 0 0);
+}
+
+section > h2 {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    clip-path: polygon(0 0, 0 0, 0 0);
+}
+
+
+.nav_bar {
+    width: fit-content;
+}
+
+.bg_color {
+    background-color: #ffcf5c;
+}
+
+.banner {
+    text-align: left;
+    width: 1405px;
+    margin: 0 auto;
+}
+
+.hello {
+    display: inline-block;
+    vertical-align: top;
+    height: 717px;
+    padding-top: 100px;
+    width: 470px;
+}
+
+strong {
+    font-size: 100px;
+}
+
+.login {
+    height: 100px;
+    width: 380px;
+    margin-top: 30px;
+}
+
+.login a{
+    display: inline-block;
+    border: 1px solid #3A2A21;
+    border-radius: 10%;
+    /* border-width: 20px; */
+    font-size: 25px;
+    padding: 30px 40px;
+    margin-top: 20px;
+    margin-right: 5px;
+    box-sizing: border-box;
+
+/* 
+    font-size: 18px;
+    padding: 20px;
+    margin: 30px; */
+}
+dl {
+    display: inline-block;
+}
+
+div {
+    display: inherit;
+}
+
+
+
+dd {
+    display: list-item;
+    list-style-type: disc;
+    /* text-align: center; */
+}
